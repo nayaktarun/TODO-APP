@@ -1,0 +1,92 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.item {
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.item.hidden {
+  display: none;
+}
+
+.item li {
+  padding: 10px;
+}
+
+.item button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.completed-item {
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.completed-item li {
+  padding: 10px;
+  color: #666;
+  text-decoration: line-through;
+}
+
+#remove {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#complete {
+  background-color: #008000;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.button-contain {
+  display: flex;
+  justify-content: space-between;
+}
